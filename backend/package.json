@@ -1,0 +1,23 @@
+{
+  "name": "recipe_basket",
+  "version": "1.0.0",
+  "description": "A web application that suggests recipes based on the ingredients users have at home.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StormSplits/recipe-basket.git"
+  },
+  "author": "Sonu Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StormSplits/recipe-basket/issues"
+  },
+  "homepage": "https://github.com/StormSplits/recipe-basket#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
