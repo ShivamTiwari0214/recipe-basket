@@ -3,7 +3,7 @@ import './Input.css'
 export const InputLoader = (props) => {
   return (
     <div className="loader">
-    {props.progress>=1 && <span className='loaderBackArrow' onClick={()=>{props.setProgress(props.progress-1)}}><i class="fa-solid fa-angle-left"></i></span>}
+    {props.progress>=1 && <span className='loaderBackArrow' onClick={()=>{props.setProgress(props.progress-1)}}><i className="fa-solid fa-angle-left"></i></span>}
     <div className={`${props.progress>=0?'doneStage':'pending'} loadValue`}></div>
     <div className={`${props.progress>=1?'doneStage':'pending'} loadValue`}></div>
     <div className={`${props.progress>=2?'doneStage':'pending'} loadValue`}></div>

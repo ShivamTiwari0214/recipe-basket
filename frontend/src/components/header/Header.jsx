@@ -1,11 +1,12 @@
 import { ReactComponent as Logo } from "../../graphicalContent/logo.svg";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <div className="header">
 
-      <Logo /> &nbsp; Recipe Basket
+     <Link to='/'> <Logo /> &nbsp; Recipe Basket</Link>
       
     </div>
   );
