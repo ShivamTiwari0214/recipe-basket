@@ -1,3 +1,4 @@
+import React from 'react';
 import './home.css'
 import { SaveLogo } from '../saveLogo/SaveLogo';
 import { PageHeading } from '../heading/PageHeading';
