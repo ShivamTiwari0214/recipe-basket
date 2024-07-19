@@ -28,7 +28,7 @@ export const InputQuestion = (props) => {
       <br />
       <div className="inputButtonDiv">
         {index>0 && index < 9 && <button className="skip" onClick={onClickHandler}>Skip</button>}
-      {index<9 && <button className="next" onClick={onClickHandler} disabled={index===0 &&promptData[name[0]].length <3}>Next &nbsp; <i class="fa-solid fa-check checkCenter"></i></button>}
+      {index<9 && <button className="next" onClick={onClickHandler} disabled={index===0 &&promptData[name[0]].length <3}>Next &nbsp; <i className="fa-solid fa-check checkCenter"></i></button>}
       {index === 9 && <button className="next" type="submit">Show Recipies</button>}
       </div>
     </form>

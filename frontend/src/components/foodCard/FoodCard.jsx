@@ -1,6 +1,5 @@
 import "./FoodCard.css";
 export const FoodCard = (props) => {
-  console.log(props);
   return (
     < >
       {props.dishes.map((value, index) => {
